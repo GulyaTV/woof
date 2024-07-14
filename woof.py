@@ -10,8 +10,8 @@ import datetime
 from PIL import Image
 
 # Инициализация клиентов с вашими API-ключами
-openai_client = OpenAI(api_key="sk-proj-U0XRhea1d90JKgbzfXtLT3BlbkFJVO6bR2zz92HPdvIOhO3G")
-deepseek_client = OpenAI(api_key="sk-b36871fc12f0404b95c3dd72bce66269", base_url="https://api.deepseek.com")
+openai_client = OpenAI(api_key="API-ключ")
+deepseek_client = OpenAI(api_key="API-ключ", base_url="https://api.deepseek.com")
 ver = "Beta 4.0"
 
 # Функция для распознавания голоса
